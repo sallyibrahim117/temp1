@@ -1,0 +1,253 @@
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    padding:15px;
+  
+}
+.header .container{
+    width: 90%;
+}
+.header .logo{
+    width: 60px;
+    }
+.menu{
+    position: relative;
+}
+.menu .list{
+width: 200px;
+background: #f6f6f6;;
+top: 27px;
+position: absolute;
+right: 0px;
+display: none;
+}
+.menu .list li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.menu .list a{
+    text-transform: capitalize;
+    color: var(--black-color);
+    transition: 0.3s;
+}
+.menu .list a:hover{
+    padding-left: 25px;
+}
+.menu .fa-bars{
+    font-size: 25px;
+    color: var(--black-color);
+}
+.menu:hover .list{
+display: block;
+transition: 0.3s;
+}
+.hero-section{
+    background-image: url(images/landing.jpg);
+height: calc(100vh - 64px);
+    background-size: cover;
+  width: 100%;
+}
+.hero-content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+
+}
+.hero-content h1{
+    color: var(--main-color);
+    font-size: 50px;
+}
+.hero-content p{
+    margin-top: 25px;
+    font-size: 20px;
+   color: var(--black-color);
+    width: 309px;
+}
+
+.feature .featureContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+   
+}
+.featureContent .fa-solid{
+color: var(--main-color);
+font-size: 40px;
+}
+.featureContent h4{
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.featureContent p{
+    margin-top: 30px;
+    color: #777;
+    line-height: 1.9;
+}
+.feature .container-fluied{
+    display: flex;
+}
+.feature{
+    background-color: #f6f6f6;
+    min-height: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.services ,.about{
+    padding-top: 20px;
+   
+}
+.firstserveContent{
+    display: flex; 
+    margin-top: 60px; 
+}
+.services .container,.portofilio .container ,.about .container{
+    width: 90%;
+}
+.firstserveContent .fa-solid{
+    color: var(--main-color);
+}
+.firstServece .firstserveContent .fa-solid {
+  font-size: 30px;  
+}
+.firstServece .firstserveContent div{
+    margin-left: 15px;
+}
+.firstserveContent h5{
+    font-size: 19px;;
+}
+.firstserveContent p ,.card .card-content p{
+    margin-top: 17px;
+font-size: 16px;
+color: #444;
+line-height: 1.6;
+letter-spacing: .7px;
+}
+.allservices ,.portfil-content,.about-content{
+    display: flex;
+    gap: 20px;
+}
+.second-col{
+    margin-left: 15px;
+}
+.image{
+    text-align: center;
+    margin-top: 75px;
+}
+.image .im{
+    width: 260px;
+}
+.portofilio{
+  background-color:#f6f6f6;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top: 70px;
+}
+.portofilio .card{
+    background-color: white;
+    margin-top: 50px;
+}
+.card img{
+    width: 100%;
+   
+}
+.card .card-content{
+    padding: 15px;
+}
+.card .card-content h3{
+   font-size: 17px;
+}
+.about .imag{
+    position: relative;
+    width: 250px;
+    height: 200px;
+}
+.about img{
+    width: 100%;
+}
+.about .imag::after{
+    
+content: "";
+position: absolute;
+width: 120px;
+height: 300px;
+border-left: 80px solid var(--main-color);
+border-bottom: 80px solid var(--main-color);
+z-index: -1;
+right: -150px;
+top: -40px;
+}
+.about .imag::before{
+    content: "";
+    position: absolute;
+    background-color: #ebeced;
+    width: 100px;
+    height: calc(100% + 80px);
+    top: -40px;
+    left: -20px;
+    z-index: -1;
+  
+}
+.about-content{
+    margin-top: 100px;
+}
+.info .aboutParg1{
+    line-height: 1.7;
+letter-spacing: .6px;
+font-weight: bold;
+}
+.about .info hr{
+    width: 50%;
+    border-color: var(--main-color);
+  margin-top: 60px;
+  
+}
+.info .aboutParg2{
+    margin-top: 60px;
+    line-height: 1.7;
+    letter-spacing: .6px;
+}
+.contact{
+    background-color:#f6f6f6;
+    padding: 60px;
+    margin-top: 150px;
+}
+.contactInfo{
+    margin-top: 60px;
+text-align: center;
+line-height: 1.8;
+}
+.contactParg{
+    font-size: 34px;
+letter-spacing: -3px;
+    color: #2c4755;
+    font-weight: bold;
+}
+.contactInfo .contactlink{
+    font-size: 34px;
+    color: var(--main-color);
+}
+.social-links a{
+    color:#2c4755 ;
+}
+.foot{
+    height:80px;
+    background-color: #2c4755;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+.foot a{
+    color: var(--main-color);
+}
